@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISTIJAN Bootstrap 4</title>
+    <!-- BOOTSTRAP 4.5.3 SCSS imported -->
+    <link rel="stylesheet" href="./assets/scss/main.css">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="./assets/css/myCSS.css">
+    <!-- FONT AWESOME 4.7.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <img src="./assets/images/bg-01.jpg" class="theBack"></img>
+        <div class="row no-gutters mx-auto mt-md-5 flex-column flex-sm-row shadow">
+            <!-- THE FORM CONTAINER -->
+            <div class="col-12 theForm p-5" style="border-radius: 1rem;">
+                <div class="d-flex justify-content-center align-items-center bg-light rounded-circle mx-auto mb-4"
+                    style="width: 120px; height: 120px;">
+                    <i class="zmdi zmdi-landscape zmdi-hc-4x"></i>
+                </div>
+                <h3 class="text-center text-light">LOG IN</h3>
+                <!-- THE FORM -->
+                <form action="#" class="mt-5">
+                    <input type="text"
+                        class="form-control border-top-0 border-left-0 border-right-0 mt-4 bg-transparent text-light"
+                        name="" id="" aria-describedby="helpId" placeholder="Username"
+                        style="font-family: Arial, 'FontAwesome'">
+                    <div class="position-absolute icon_container">
+                        <i class="fa fa-user input_UserIcon" aria-hidden="true"></i>
+                    </div>
+                    <input type="password"
+                        class="form-control border-top-0 border-left-0 border-right-0 mt-4 bg-transparent text-light"
+                        name="thePassword" id="thePassword" placeholder="Password">
+                    <div class="position-absolute icon_container">
+                        <i class="fa fa-lock input_PassIcon"></i>
+                    </div>
+                    <div class="custom-control custom-checkbox mt-4 pt-3">
+                        <input id="theCheckbox" class="custom-control-input" type="checkbox" name="theCheckbox"
+                            value="true">
+                        <label for="theCheckbox" class="custom-control-label text-light">Remember me</label>
+                    </div>
+                    <button type="submit"
+                        class="btn btn-lg badge-pill font-weight-bold bg-light text-dark py-2 d-block mx-auto mt-5"
+                        style="width: 8rem; font-size: 1rem;">Login</button>
+                    <div class="text-center" style="margin-top: 6rem;">
+                        <a href="#" class="text-light">Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+     <!-- THE FOOTER -->
+     <footer class="footer container-fluid text-center d-flex flex-column justify-content-center mt-auto">
+        <div class="border border-left-0 border-right-0 border-bottom-0 w-50 border-darks mx-auto pb-3"></div>
+        <p class="text-dark mb-0">KPR &copy; 2020</p>
+        <p class="text-dark mb-0 mt-3">Terms of Use and Privacy Policy</p>
+    </footer>
+
+    <!-- JQUERY -->
+    <script src="./assets/BS_SASS_CSS_JQUERY_POPPER_JS_BS4.5.3/jquery-3.5.1.min.js"></script>
+    <!-- POPPER -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="./assets/BS_SASS_CSS_JQUERY_POPPER_JS_BS4.5.3/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+*** Include Font-Awesome in the Project Website
+https://fontawesome.com/v4.7.0/get-started/
+
+*** Enter this code inside your HTML for the icon to show
+<i class="zmdi zmdi-landscape"></i>

@@ -1,0 +1,11 @@
+*** Implement Font-Awesome in your Project code
+https://fontawesome.com/v4.7.0/get-started/
+
+*** Enter this code for the facebook icon
+<i class="fa fa-facebook"></i>
+
+*** Enter this code for the twitter icon
+<i class="fa fa-twitter"></i>
+
+*** Enter this code for the google icon
+<i class="fa fa-google"></i>
